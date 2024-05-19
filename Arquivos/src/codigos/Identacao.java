@@ -1,4 +1,3 @@
-package edu.nayara.anatomiadasclasses;
 public class Identacao {
     
     // aplicação do conceito de tabulação/identação
