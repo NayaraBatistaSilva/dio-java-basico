@@ -85,3 +85,9 @@ public class BoletimEstudantil {
 	}
 }
 ```
+
+## Escopo
+
+O escopo pode ser entendido como,o ambiente onde uma variável pode ser acessada. Em Java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
+- Classe: Os atributos (variáveis) que são declarados no corpo principal da Classe são acessíveis por todos os métodos.
+- Métodos: Atributos (variáveis) que são declarados no Método, tem o escopo dessa variável limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.

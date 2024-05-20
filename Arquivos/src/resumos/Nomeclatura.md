@@ -57,6 +57,8 @@ int longo = 1;
 
 ## Métodos
 
+Correspondem a funções ou sub-rotinas disponíveis dentro de nossas classes. ATENÇÃO! Não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.
+
 **Regras:**
 - Deverão ser nomeados como verbos.
 - Deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA
@@ -69,3 +71,19 @@ concluirProcessamento() {}
 findById(int id){} // não se assuste, você verá muito método em inglês em sua jornada
 calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma única finalidade
 ```
+
+**Perguntas que podem auxiliar no desenvolvimento do método:**
+
+
+1. Qual a proposta principal do método? Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
+
+2. Qual o tipo de retorno esperado após executar o método? Você deve analisar se o método será responsável por retornar algum valor ou não.
+Caso o método não retorne nenhum valor, ele será representado pela palavra-chave `void`.
+
+3. Quais os parâmetros serão necessários para execução do método? Os métodos às vezes precisarão de argumentos como critérios para a execução.
+
+4. O método possui o risco de apresentar alguma exceção? Exceções são comuns na execução de métodos, as vezes é necessário prever e tratar a possível existência de uma exceção.
+
+5. Qual a visibilidade do método? Avaliar se será necessário que o método seja visível a toda aplicação, somente em pacotes, através de herança ou somente a nível a própria classe.
+
+
